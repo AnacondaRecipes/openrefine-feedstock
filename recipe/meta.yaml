@@ -15,6 +15,9 @@ build:
   number: 0
 
 requirements:
+  build:
+    - 7zip  # [win]
+    - maven
   host:
     - 7zip  # [win]
     - maven
